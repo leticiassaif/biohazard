@@ -20,6 +20,6 @@
     radius="16"
     width="380"
     animation="hover-bg-color-[#8da56a]"
-    on_click="goToPage('ending_true')"
+    on_click="goToPage('ending_true'); set(infeccao, 100)"
     />
 </page>
