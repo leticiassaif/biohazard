@@ -110,11 +110,11 @@
     y="340"
     border="dotted"
     border_color="black"
-    text="clique aqui para continuar explorando"
+    text="clique aqui para prosseguir"
     radius="16"
     width="400"
     animation="hover-bg-color-[#8da56a]"
-    on_click="set(narrative_attic, $narrative_attic + 1)"
+    on_click="goToPage('welcome_family')"
     />
 </fab-if>
   
