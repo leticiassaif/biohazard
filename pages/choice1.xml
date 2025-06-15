@@ -1,42 +1,41 @@
 <page id="choice1" bg_color="black">
 
   <agent
-    id="comecar_busca"
+    id="choice1_ending1"
     text="Começar a busca."
     y="330"
     x="80"
     font-size="25"
     color="white"
-    on_click="goToPage('baker_outside'); set(coragem, $coragem + 20)"
-    animation="hover-bg-color-[#c0c4b8]"
     radius="16"
     width="270"
+    on_click="goToPage('baker_outside'); set(coragem, $coragem + 20)"
+    animation="hover-bg-color-[gray] hover-color-[white]"
   />
 
-    <agent
-    id="desistir1"
+  <agent
+    id="choice2_ending1"
     text="Ficar longe."
     y="330"
     x="530"
     font-size="25"
     color="white"
     width="200"
-    animation="hover-bg-color-[#c0c4b8]"
     radius="16"
+    animation="hover-bg-color-[gray] hover-color-[white]"
     on_click="goToPage('ending_giveup'); set(coragem, $coragem - 30); set(sanidade, $sanidade - 20)"
   />
 
-      <agent
-    id="escolha"
+  <agent
+    id="choice_message"
     text="Faça uma escolha."
     y="220"
-    x="center"
+    x="230"
     font-size="30"
     color="white"
     animation="fade-in-down"
-    bg_color="#c0c4b8"
+    border_color="white"
     border="dashed"
-    border_color="#f59e0b"
     radius="16"
     width="340"
   />
