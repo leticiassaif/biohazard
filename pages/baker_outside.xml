@@ -1,7 +1,7 @@
 <page id="baker_outside" bg_image="baker_house1.png">
 
-     <agent
-    id="mensagem1"
+  <agent
+    id="outside_message_1"
     text="O email que você recebeu... Aquela era Mia, sua esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E você sabe que tem que encontrá-la..."
     color="white"
     x="50"
@@ -12,8 +12,8 @@
    />
 
 
-    <agent
-    id="mensagem2"
+  <agent
+    id="outside_message_2"
     text="Você segue as instruções do email chega em Dulvey, Louisiana, na Fazenda Baker. Ao caminhar pela floresta, você avista uma casa, porém o portão está trancado. À sua esquerda, você olha uma van abandonada com uma proposta de projeto chamada de 'Sewer Gators' e uma placa dizendo 'ACEITE O PRESENTE DELA'. Indo mais adentro da floresta, você acha a carteira de motorista da Mia e uma casa abandonada."
     color="white"
     x="50"
@@ -23,32 +23,32 @@
     animation="fade-in-down"
   />
   
-    <agent
-    id="mensagem3"
+  <agent
+    id="outside_message_3"
     text="Você decide entrar dentro da casa e a porta tranca, aparentemente, sozinha atrás de você."
     color="white"
     x="50"
-    y="384"
+    y="375"
     font-size="20"
     width = "700"
     animation="fade-in-down"
   />
   
   <agent
-    id="next_page_text"
+    id="outside_button"
     text="clique aqui para continuar"
-    y="500"
+    y="460"
     x="center"
     font-size="15"
     color="white"
-    on_click="goToPage('baker_kitchen'); set(coragem, $coragem + 20); set(sanidade, $sanidade - 10)"
     bg_color="transparent"
     border="dotted"
-    border_color="#8da56a"
-    animation="hover-bg-color-[#8da56a] hover-color-[white]"
+    border_color="black"
     radius="20"
     width="250"
     height="40"
+    animation="hover-bg-color-[#8da56a] hover-color-[white]"
+    on_click="goToPage('baker_kitchen'); set(coragem, $coragem + 20); set(sanidade, $sanidade - 10)"
   />
   
 </page>
