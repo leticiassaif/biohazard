@@ -1,6 +1,6 @@
 <page id="baker_kitchen" bg_image="baker_house2.png">
 
-     <agent
+  <agent
     id="kitchen_message_1"
     text="A casa está acabada por dentro. A cozinha está cheia de comida estragada e tem um jornal sobre 20 desaparecimentos em 2 anos na mesa de jantar."
     color="white"
@@ -11,7 +11,7 @@
     animation="fade-in-down"
    />
 
-       <agent
+  <agent
     id="kitchen_message_2"
     text="Seguindo reto você olha o final do corredor e uma escada, por onde você quer seguir?"
     color="white"
@@ -22,7 +22,7 @@
     animation="fade-in-down"
    />
 
-    <agent
+  <agent
     id="stair_option_kitchen"
     text="Subir a escada"
     color="white"
@@ -37,7 +37,7 @@
     on_click="goToPage('baker_upstairs'); set(cassete_click, 0)"
    />
 
-    <agent
+  <agent
     id="hall_option_kitchen"
     text="Ir até o final do corredor"
     color="white"
