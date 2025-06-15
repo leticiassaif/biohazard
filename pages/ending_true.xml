@@ -1,3 +1,44 @@
 <page id="ending_true" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página ending_true" color="white" font-size="24" />
+  <agent
+    id="tipo_de_final_marido"
+    text="Final Bom Marido"
+    x="170"
+    y="40"
+    color="white"
+    font-size="50"
+    animation="fade-in-down"
+  />
+
+  <agent
+    id="descricao_do_final_ouvinte"
+    text="Você decide não atacar sua esposa, entretanto ela não teve essa piedade. $visitante morre, sem saber o que estava acontecendo, Mia continua naquela casa abandonada, agora com a culpa de ter matado $visitante. Será se a verdade vai ser descoberta?"
+    x="center"
+    y="130"
+    color="white"
+    width="500"
+    font-size="20"
+    animation="typewriter"
+  />
+
+  <agent
+    id="resultado_texto1"
+    x="310"
+    y="450"
+    text="Resultados"
+    color="white"
+    font-size="24"
+    animation="fade-in-down"
+  />
+
+
+  <agent
+    id="resultado_vida_coragem1"
+    x="48"
+    y="500"
+    text="Infecção: $infeccao"
+    width="700"
+    color="white"
+    font-size="24"
+    animation="fade-in-down"
+  />
 </page>
