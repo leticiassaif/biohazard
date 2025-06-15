@@ -1,0 +1,3 @@
+<page id="ending_true" bg_color="black">
+  <agent id="titulo" x="center" y="center" text="Página ending_true" color="white" font-size="24" />
+</page>
