@@ -1,0 +1,3 @@
+<page id="welcome_family" bg_color="black">
+  <agent id="titulo" x="center" y="center" text="Página welcome_family" color="white" font-size="24" />
+</page>
