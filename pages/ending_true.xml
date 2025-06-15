@@ -1,8 +1,8 @@
 <page id="ending_true" bg_color="black">
   <agent
     id="tipo_de_final_marido"
-    text="Final Bom Marido"
-    x="170"
+    text="Final Verdadeiro"
+    x="190"
     y="40"
     color="white"
     font-size="50"
@@ -11,7 +11,7 @@
 
   <agent
     id="descricao_do_final_ouvinte"
-    text="Você decide não atacar sua esposa, entretanto ela não teve essa piedade. $visitante morre, sem saber o que estava acontecendo, Mia continua naquela casa abandonada, agora com a culpa de ter matado $visitante. Será se a verdade vai ser descoberta?"
+    text="Jack Baker, o homem que te socou, o levou para sua casa. Você acorda no meio do jantar da família e sabe que tem que escapar o quanto antes. Entretanto, $visitante nunca mais será o mesmo."
     x="center"
     y="130"
     color="white"
@@ -33,10 +33,9 @@
 
   <agent
     id="resultado_vida_coragem1"
-    x="48"
+    x="290"
     y="500"
-    text="Infecção: $infeccao"
-    width="700"
+    text="🩸 Infecção: $infeccao"
     color="white"
     font-size="24"
     animation="fade-in-down"
