@@ -74,14 +74,36 @@
   <agent 
     id="attic_message_3"
     x="50"
-    y="230"
-    text="Explorando a parte de cima, você encontra uma pistola e munição para ela. Algo te diz que você vai realmente precisar disso se quiser sair vivo."
+    y="50"
+    text="Você olha a saída que Zoe tinha falado no telefone. Ela é bem pequena e você precisa subir uma outra escada para passar. Ao subir, você escuta um som fraco de motossera. Você se afasta e aponta a arma. Mia desce as escadas e começa a ir para cima de você."
     color="white"
     font-size="20"
     width="700"
     animation="fade-in-down"
     />
 
+  <agent 
+    id="attic_message_4"
+    x="50"
+    y="210"
+    text="Você atira em Mia, várias vezes. 'Eu te amo.' - ela diz antes de ficar inconsciente. Você olha o corpo dela desmaiado, ainda sem entender o que aconteceu com ela."
+    color="white"
+    font-size="20"
+    width="700"
+    animation="fade-in-down"
+    />
+
+  <agent 
+    id="attic_message_5"
+    x="50"
+    y="300"
+    text="Até que alguém toca no seu ombro. 'Bem-vindo à família, filho.' - é a última coisa que você escuta antes de ser socado e perder a  consciência."
+    color="white"
+    font-size="20"
+    width="700"
+    animation="fade-in-down"
+    />
+  
   <agent 
     id="attic_button_3"
     x="center"
