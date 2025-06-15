@@ -1,4 +1,4 @@
-<page id="welcome_family" bg_color="black">
+<page id="welcome_family" bg_image="family.png">
   <agent 
     id="family_message"
     x="50"
