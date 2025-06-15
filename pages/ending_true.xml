@@ -1,4 +1,4 @@
-<page id="ending_true" bg_color="black">
+<page id="ending_true" bg_image="dinner_table.png">
   <agent
     id="tipo_de_final_marido"
     text="Final Verdadeiro"
