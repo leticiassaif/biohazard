@@ -1,4 +1,4 @@
-<page id="mia_hall_fight" bg_color="black">
+<page id="mia_hall_fight" bg_image="mia_fight_2.png">
 
 <fab-if when="mia_fight = 0"> 
   <agent 
@@ -101,4 +101,3 @@
     animation="fade-in"
     />
 </fab-if>
-</page>
