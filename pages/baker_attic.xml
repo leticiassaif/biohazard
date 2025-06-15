@@ -1,3 +1,28 @@
 <page id="baker_attic" bg_image="attic_1.png">
-  <agent id="titulo" x="center" y="center" text="Página baker_attic" color="white" font-size="24" />
+
+<fab-if when="narrative_attic = 0"> 
+  <agent 
+    id="attic_message_1"
+    x="50"
+    y="230"
+    text="Você sobe as escadas, agora com a mão amputada, e aberta no botão. Ele funciona e aparece uma outra escada que leva para o sótão."
+    color="white"
+    font-size="20"
+    width="700"
+    animation="fade-in-down"
+    />
+
+  <agent 
+    id="attic_button_1"
+    x="center"
+    y="340"
+    border="dotted"
+    border_color="black"
+    text="clique aqui para subir as escadas"
+    radius="16"
+    width="400"
+    animation="hover-bg-color-[#8da56a]"
+    on_click="set(narrative_attic, $narrative_attic + 1)"
+    />
+</fab-if>
 </page>
